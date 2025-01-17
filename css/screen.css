@@ -12,6 +12,11 @@ body{
     padding: 0;
 }
 
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
 /* Text */
 
 h1 {
@@ -51,3 +56,10 @@ a:visited {
     color: #65b1ff;
 }
 
+/* Header */
+
+header {
+    height: 430px;
+    background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom;
+    position: relative;
+}
